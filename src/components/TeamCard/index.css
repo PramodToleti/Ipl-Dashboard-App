@@ -1,0 +1,118 @@
+.rcb {
+  background-image: linear-gradient(45deg, #e03a3af6, #201616);
+}
+
+.kkr {
+  background-image: linear-gradient(45deg, #8255a7, #1b4383);
+}
+
+.kxp {
+  background-image: linear-gradient(45deg, #d34e50, #880d13);
+}
+
+.csk {
+  background-image: linear-gradient(135deg, #f7db00, #816509);
+}
+
+.rr {
+  background-image: linear-gradient(45deg, #da237b, #11356e);
+}
+
+.mi {
+  background-image: linear-gradient(45deg, #4fa3ca, #1e3f74);
+}
+
+.sh {
+  background-image: linear-gradient(90deg, #f2b022, #d15d1a);
+}
+
+.dc {
+  background-image: linear-gradient(45deg, #4f5db0, #0a1b79);
+}
+
+.team-card {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  gap: 10px;
+  padding: 10px;
+  min-height: 105px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .team-card {
+    min-height: 150px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .team-card {
+    min-height: 155px;
+  }
+}
+
+.team-card-link {
+  width: 47%;
+  text-decoration: none;
+}
+
+.team-logo {
+  width: 50px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .team-logo {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .team-logo {
+    width: 70px;
+    height: 65px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .team-logo {
+    width: 80px;
+    height: 75px;
+    margin-left: 20px;
+  }
+}
+
+.team-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Bree Serif';
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .team-name {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .team-name {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-name {
+    font-size: 22px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .team-name {
+    font-size: 23px;
+    width: 100%;
+  }
+}

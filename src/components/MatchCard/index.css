@@ -1,0 +1,87 @@
+.match-card {
+  width: 47%;
+  max-width: 200px;
+  background-color: #0f172a;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-top: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 5px 12px 42px #00000080;
+}
+
+@media screen and (min-width: 767px) {
+  .match-card {
+    max-width: 300px;
+  }
+}
+
+.logo-container {
+  min-height: 75px;
+}
+
+.competing-team-logo {
+  width: 55px;
+  height: 55px;
+}
+
+@media screen and (min-width: 767px) {
+  .competing-team-logo {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+.competing-team-name {
+  font-weight: 500;
+  font-family: 'Bree Serif';
+  font-size: 17px;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  .competing-team-name {
+    font-size: 22px;
+    width: 180px;
+  }
+}
+
+.game-result {
+  font-weight: 500;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  .game-result {
+    font-size: 15px;
+    width: 200px;
+  }
+}
+
+.match-status {
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 767px) {
+  .match-status {
+    font-size: 22px;
+  }
+}
+
+.won {
+  color: #18ed66;
+}
+
+.lost {
+  color: #e31a1a;
+}
