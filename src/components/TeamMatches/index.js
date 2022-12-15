@@ -76,7 +76,6 @@ class TeamMatches extends Component {
         ) : (
           <div className="team-match-details">
             <img src={teamBanner} alt="team banner" className="team-banner" />
-            <h1 className="latest-matches-heading">Latest Matches</h1>
             <div className="latest-match-container">
               <LatestMatch
                 latestMatchDetails={latestMatch}

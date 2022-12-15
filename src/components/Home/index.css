@@ -1,5 +1,5 @@
 .home-container {
-  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-image: url('https://res.cloudinary.com/dlpgowt5s/image/upload/v1671032934/Gradient_dkg6y0.png');
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
 
 @media screen and (min-width: 767px) {
   .home-container {
-    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    background-image: url('https://res.cloudinary.com/dlpgowt5s/image/upload/v1671042091/bg-3_zf4h9w.png');
   }
 }
 

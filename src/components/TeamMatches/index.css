@@ -1,33 +1,41 @@
 .RCB {
-  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  background-image: url('https://res.cloudinary.com/dlpgowt5s/image/upload/v1671035362/Rectangle_uxxbfs.png');
+  background-size: cover;
 }
 
 .KKR {
-  background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+  background-image: url('https://res.cloudinary.com/dlpgowt5s/image/upload/v1671036683/kkr-4_ctoyug.png');
+  background-size: cover;
 }
 
 .KXP {
-  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+  background-image: url('https://res.cloudinary.com/dlpgowt5s/image/upload/v1671037117/kxp-2_zkwfdj.png');
+  background-size: cover;
 }
 
 .CSK {
-  background-image: linear-gradient(to bottom, #f7db00, #1e293b);
+  background-image: url('https://res.cloudinary.com/dlpgowt5s/image/upload/v1671035839/csk-2_bthmwd.png');
+  background-size: cover;
 }
 
 .RR {
-  background-image: linear-gradient(to bottom, #da237b, #1e293b);
+  background-image: url('https://res.cloudinary.com/dlpgowt5s/image/upload/v1671037248/rr_fawule.png');
+  background-size: cover;
 }
 
 .MI {
-  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+  background-image: url('https://res.cloudinary.com/dlpgowt5s/image/upload/v1671037842/mi-4_eko00v.png');
+  background-size: cover;
 }
 
 .SH {
-  background-image: linear-gradient(to bottom, #f26d22, #1e293b);
+  background-image: url('https://res.cloudinary.com/dlpgowt5s/image/upload/v1671038574/srh-3_lkfy42.png');
+  background-size: cover;
 }
 
 .DC {
-  background-image: linear-gradient(to bottom, #4f5db0, #1e293b);
+  background-image: url('https://res.cloudinary.com/dlpgowt5s/image/upload/v1671038185/dc_qfrmvt.png');
+  background-size: cover;
 }
 
 .team-matches-container {
@@ -52,21 +60,6 @@
 .team-banner {
   width: 100%;
   border-radius: 6px;
-}
-
-.latest-matches-heading {
-  font-family: 'Bree Serif';
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 500;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-@media screen and (min-width: 767px) {
-  .latest-matches-heading {
-    font-size: 26px;
-  }
 }
 
 /* Latest Matches Container */

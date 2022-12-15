@@ -31,7 +31,6 @@ class Home extends Component {
 
   renderIplTeams = () => {
     const {teamsList, isLoading} = this.state
-    console.log(teamsList)
     return isLoading ? (
       <div className="loader-container">
         <Loader type="Oval" color="#ffffff" height={50} width={50} />

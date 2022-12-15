@@ -1,0 +1,48 @@
+.form-details-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0px 15px 30px #00000040;
+  animation: animate 1.5s forwards;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .form-details-container {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.form {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0;
+}
+
+@media screen and (min-width: 767px) {
+  .form {
+    font-size: 20px;
+  }
+}
+
+.win-style {
+  color: rgb(72, 204, 72);
+}
+
+.lose-style {
+  color: #f71212;
+}
