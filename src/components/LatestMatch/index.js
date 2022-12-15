@@ -47,6 +47,7 @@ const LatestMatch = props => {
           ))}
         </ul>
       </div>
+      <p className="form-description">Last 5 matches</p>
       <div className="match-details-body">
         <div className="match-result-container">
           <div className="result-details">

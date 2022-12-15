@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 767px) {
@@ -11,7 +11,24 @@
     flex-direction: row;
     align-items: center;
     margin-top: 35px;
+    margin-bottom: 0;
+  }
+}
+
+.form-description {
+  margin: 0;
+  margin-bottom: 20px;
+  align-self: flex-start;
+  font-size: 10px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 767px) {
+  .form-description {
+    align-self: flex-end;
     margin-bottom: 30px;
+    font-size: 12px;
   }
 }
 
@@ -24,9 +41,15 @@
   margin-bottom: 15px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 767px) and (max-width: 991px) {
   .latest-matches-heading {
     font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .latest-matches-heading {
+    font-size: 36px;
   }
 }
 
