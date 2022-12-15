@@ -1,21 +1,25 @@
 .not-found-container {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-image: url('https://res.cloudinary.com/dlpgowt5s/image/upload/v1671115965/iPad_Pro_12.9__-_1_kfrkdy.png');
   background-size: cover;
 }
 
 @media screen and (min-width: 767px) {
   .not-found-container {
-    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    background-image: url('https://res.cloudinary.com/dlpgowt5s/image/upload/v1671115965/iPad_Pro_12.9__-_1_kfrkdy.png');
   }
 }
 
-.not-found-heading {
-  color: #ffffff;
-  font-weight: 500;
-  font-family: 'Bree Serif';
-  font-size: 36px;
+.not-found-image {
+  width: 300px;
+}
+
+@media screen and (min-width: 767px) {
+  .not-found-image {
+    width: 500px;
+  }
 }
